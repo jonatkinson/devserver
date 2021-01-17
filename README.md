@@ -1,6 +1,8 @@
 # Dev Server
 
-This is an ansible playbook, which sets up my development environment. I use VSCode Remote over SSH to this server, so this isn't a collection of clever configuration files and environment tweaks; it's mainly just a script to install the packages I need.
+This is an Ansible playbook, which sets up my development environment. 
+
+I use VSCode Remote over SSH to this server, so this isn't a collection of clever configuration files and environment tweaks; it's mainly to install the packages I need.
 
 This is intended to be run on an Ubuntu 20.04 install, right after installation. It might work on other distributions but it's probably not wise.
 
