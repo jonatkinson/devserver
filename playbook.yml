@@ -31,6 +31,23 @@
         'libjpeg-dev',
         'rsync', 
         'screen', 
+        'libssl-dev', 
+        'zlib1g-dev', 
+        'libbz2-dev',
+        'libreadline-dev', 
+        'libsqlite3-dev',
+        'llvm', 
+        'libncurses5-dev',
+        'libncursesw5-dev',
+        'xz-utils', 
+        'tk-dev',
+        'libffi-dev',
+        'liblzma-dev',
+        'python-openssl',
+        'git',
+        'libxml2-dev',
+        'libxslt-dev',
+        'mariadb-client-core-10.3',
       ]
       state: present
       update_cache: yes
