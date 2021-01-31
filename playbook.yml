@@ -48,6 +48,7 @@
         'libxml2-dev',
         'libxslt-dev',
         'mariadb-client-core-10.3',
+        'sqlite3',
       ]
       state: present
       update_cache: yes
@@ -74,3 +75,5 @@
       - /snap
       - /var/snap
       - /var/lib/snapd
+  roles:
+    - robertdebock.fail2ban
